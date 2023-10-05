@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
-p {
-  font-family: Clash Display;
+body {
+  width: 1440px;
+  margin: 0 auto;
 }
