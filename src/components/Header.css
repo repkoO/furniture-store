@@ -28,7 +28,7 @@ h1 {
   justify-content: center;
   flex-direction: row;
   column-gap: 44px;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 
 .header__nav a {
