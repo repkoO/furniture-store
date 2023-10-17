@@ -123,3 +123,168 @@ body {
   line-height: 150%; /* 24px */
 }
 
+.listings__contaier {
+  padding: 80px 80px 56px 80px;
+}
+
+.listings__contaier h3 {
+  color: #2A254B;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 33px;
+}
+
+.listings__items {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.listings__item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+.listings__item p {
+  color: var(--Dark-Primary, #2A254B);
+  /* Headings / H4 */
+  font-family: Clash Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+.listings__button {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  background: var(--Light-Grey, #F9F9F9);
+  border: none;
+  margin-top: 20px;
+  color: #2A254B;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.products__container {
+  padding: 64px 80px 44px 80px;
+}
+
+.products__container h3 {
+  color: #2A254B;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 44.8px */
+}
+
+.products__items {
+  display: flex;
+  padding-top: 23px;
+  gap: 20px;
+}
+
+.products__item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.products__item p {
+  color: var(--Dark-Primary, #2A254B);
+  /* Headings / H4 */
+  font-family: Clash Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+.products__button {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  background: var(--Light-Grey, #F9F9F9);
+  border: none;
+  margin-top: 30px;
+  color: #2A254B;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.email__container {
+  background: var(--Light-Grey, #F9F9F9);
+}
+
+.email__wrapper {
+  display: block;
+  margin: 0 auto;
+  background-color: white transparent;
+  width: 1273px;
+  padding: 52px 74px 65px 93px;
+}
+
+.email__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+}
+
+
+.email__item h1 {
+  color: var(--Dark-Primary, #2A254B);
+  text-align: center;
+  font-family: Clash Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 50.4px */
+}
+
+.email__item p {
+  color: var(--Dark-Primary, #2A254B);
+  text-align: center;
+  /* Body/Medium */
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.email__input button {
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  background: var(--Dark-Primary, #2A254B);
+  color: var(--White, #FFF);
+/* Body/Medium */
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.emails__input {
+  background: var(--Light-Grey, #F9F9F9);
+  height: 55px;
+  width: 472px;
+}
